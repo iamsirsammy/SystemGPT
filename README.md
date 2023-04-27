@@ -10,11 +10,12 @@ Install by running the following: (On Linux, Macos or WSL, windows might be a bi
 ```bash
 pip install openai pipreqs
 ```
-and then cloning the repo or downloading from releases.
+and then cloning the repo or downloading from releases. Make sure to put your openai API key into sysGPT.py.
 Run with `python sysGPT.py`.
 # If you don't know what to ask the ai, try:
 - Make a pdf called appleTutorial.pdf demonstrating how to eat apples.
-- Download https://upload.wikimedia.org/wikipedia/en/9/9a/Among_Us_cover_art.jpg and flip it vertically (You can also say flip among_us.jpg vertically if you have it downloaded and in the same folder)
-- Install OBS studio (will only work if you're running fedora or change the prompt/maybe some code)
+- Download https://upload.wikimedia.org/wikipedia/en/9/9a/Among_Us_cover_art.jpg and flip it vertically. (You can also say flip among_us.jpg vertically if you have it downloaded and in the same folder)
+- Install OBS studio. (will only work if you're running fedora or change the prompt/maybe some code)
 - Draw "ChatGPT is cool!" 10 times in large bold blue text.
-- Make 10 files named "NeverGonnaGiveYouUp", "NeverGonnaGiveYouU", "NeverGonnaGiveYou"... in a folder called Rick Astley. The file contents should be a number from 1-10.
+- Make 10 files named "NeverGonnaGiveYouUp", "NeverGonnaGiveYouU", "NeverGonnaGiveYou"... in a new folder called Rick Astley. The file contents should be a number from 1-10.
+- Open the Wikipedia article about snakes.
