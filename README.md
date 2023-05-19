@@ -6,9 +6,13 @@ SystemGPT will sometimes glitch and give an incorrect answer or refuse to give o
 
 There are some other programs that do some similar things, like AutoGPT. This has a slightly different goal (Instead of running continously, you ask it to do specific things), uses less tokens, and is better if you don't have access to or can't afford gpt-4 (More token efficient). This project has only just gotten started, and will hopefully have more features that make it a worthy program to use.
 # Installation
-Install by running the following: (prob works on Linux, Linux (beta) on chromebooks, Macos or WSL, windows might be a bit different, also make sure you have python3 and pip3)
+Install by running the following in a terminal: (Should work on linux, mac and linux (beta) on chromebooks)
 ```bash
 pip install openai pipreqs
+```
+or on windows:
+```bash
+python -m pip install openai pipreqs
 ```
 and then cloning the repo or downloading from releases. Make sure to put your openai API key into sysGPT.py. (https://platform.openai.com/account/api-keys)
 
